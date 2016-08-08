@@ -1,0 +1,127 @@
+
+
+.pricing-wrap h2 {
+	padding-top: 40px;	
+}
+
+.pricing-wrap p {
+		padding-bottom: 80px;
+}
+
+.key-line-diamond.pricing {
+	padding: 20px;
+}
+
+.money img {
+	padding: 22px 0px 0px 22px;
+}
+
+.pricing-icon {
+    width: 60px;
+    height: 60px;
+    background-color: $third;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+    top: -35px;
+    border: 4px solid white;
+    box-shadow: 0px 0px 0px 1px #e5e5e5;
+}
+
+.diamond, .rocket, .trophy {
+	padding: 16px 0px 1px 16px;
+}
+
+.pricing-card-wrap {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+    padding-bottom: 160px;
+}
+
+.amount-box {
+	position: relative;
+}
+
+.amount-box p {
+	font-size: 60px;
+	font-family: $font-family-main;
+	color: $third;
+	padding-bottom: 60px;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.pricing-card-box {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	border: 1px solid #e5e5e5;
+	transition: background-color .4s;
+		.dollar {
+			font-size: 20px;
+		    position: absolute;
+		    top: 8px;
+		    left: 50%;
+		    transform: translate(-60px);
+				}
+}
+		
+	.pricing-card-box:hover {
+		background-color: $accent;
+}
+
+.pricing-button:hover {
+	background-color: $primary;
+	border: 1px solid transparent;
+	color: $third;
+}
+
+.pricing-list {
+	text-align: center;
+	padding: 55px 115px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	position: relative;
+	ul li {
+		padding: 10px 0px;
+	}
+}
+
+.pricing-list p {
+	position: absolute;
+	color: #ffffff;
+	top: -18px;
+	left: 50%;
+	padding: 10px 40px;
+	text-transform: uppercase;
+	background-color: #202020;
+	font-family: "Montserrat", sans-serif;
+	border-radius: 0px 0px 10px 10px;
+	transform: translate(-63px);
+}
+
+.pricing-list a {
+	    padding-top: 50px;
+}
+
+.pricing-button {
+	border: 1px solid #2b2b2b;
+	background-color:  #2b2b2b;
+	color: $primary;
+	margin-top: 30px;
+	font-size: 11px;
+	letter-spacing: 2px;
+	cursor: pointer;
+	text-transform: uppercase;
+	padding: 8px 20px 8px 20px;
+	transition: all 0.3s;
+}
+
+@media (max-width: 1170px) {
+	.pricing-card-box:hover {
+		}
+} 
+
+
+

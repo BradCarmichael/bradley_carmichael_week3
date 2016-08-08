@@ -1,0 +1,148 @@
+
+
+.process-container {
+	background-color: $secondary;
+}
+
+.stack img {
+	padding: 22px 0px 0px 22px;
+}
+
+.process-wrapper h2 {
+	padding-top: 40px;
+	padding-bottom: 15px;
+}
+
+.process-wrapper p {
+    padding-top: 40px;
+	padding-bottom: 80px;
+}
+
+.process-wrap {
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+	padding-bottom: 120px;
+}
+
+.process-box {
+	height: 570px;
+    width: 670px;
+    padding: 70px;
+    position: absolute;
+    top: 50px;
+    right: 0px;
+    background-color: white;
+    text-align: center;
+    h3 {
+    	font-size: 16px;
+    	text-transform: uppercase;
+    	padding-top: 45px;
+    	font-family: $font-family-main;
+    	font-weight: 900;
+    }
+    h3:after {
+    	content: '';
+        display: block;
+        background: #b2b2b2;
+        height: 2px;
+        max-width: 30px;
+        margin-top: 20px;
+        margin-left: 50%;
+        transform: translate(-15px);
+        margin-bottom: 25px;
+    }
+}
+
+.process-box p {
+	line-height: 25px;
+	padding-bottom: 40px;
+}
+
+.umbrella-two {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	width: 90px;
+    height: 90px;
+    background-color: $third;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    border-radius: 50%;
+    transform: translate(-45px);
+}
+
+.button.process ul {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.button.process ul li {
+    background-color: #daa66f;
+    margin: 0px 8px;
+    padding-top: 11px;
+    padding-bottom: 10px;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    font-size: 11px;
+}
+
+.number-list-process ul {
+	color: #e5e5e5,
+}
+
+.number-list-process ul li {
+	display: inline-block;
+    font-size: 25px;
+    margin: 0px 10px;
+    font-weight: 900;
+}
+
+.number-list-process ul li a {
+    text-decoration: none;
+    color: #e5e5e5;
+}
+
+.number-list-process ul li a:hover {
+    text-decoration: underline;
+    color: $accent;
+    padding-bottom: 10px;
+}
+
+@media (max-width: 1050px) {
+    .process-box {
+        background-color: rgba(255, 255, 255, 0.8);
+    }
+}
+
+@media (max-width: 768px){
+    .process-wrap {
+        position: static;
+        margin: 0 auto;
+    }
+    .process-main-image {
+        margin: 0 auto;
+    }
+    .process-box {
+        position: static;
+        margin: 0 auto;
+        width: 587px;
+    }
+}
+
+@media (max-width: 580px) {
+    ._process.scss-wrap {
+        padding-bottom: 0px;
+    }
+    .process-box {
+        background-color: $secondary;
+    }
+}
+
+
+
+

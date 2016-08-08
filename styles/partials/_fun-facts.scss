@@ -1,0 +1,84 @@
+
+
+.fun-container {
+	background-image: url(../images/funfacts.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+    padding-bottom: 100px;
+    padding-top: 100px;	
+}
+
+.fun-container h2 {
+	padding-bottom: 15px;
+	color: $primary;
+}
+
+.key-line-diamond.fun-facts{
+	padding-bottom: 20px;
+}
+
+.fun-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.fun-box {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+	width: calc(25% - 40px);
+	max-width: 21%;
+	height: 270px;
+	border: 5px solid $primary;
+	margin: 20px;
+	position: relative;
+}
+
+.fun-icon {
+	text-align: center;
+	height: 60px;
+	width: 60px;
+	background-color: #ffffff;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	left: 50%;
+	margin-left: -30px;
+	top: 50px;
+}
+
+.fun-text {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+	p {
+		font-size: 13px;
+		text-transform: uppercase;
+		font-family: $font-family-main;
+		color: $primary;
+	} 
+	p.fun-text-number {
+    font-size: 40px;
+    padding-top: 100px;
+    padding-bottom: 20px;
+	} 
+}
+
+@media (max-width: 768px) {
+	.fun-box {
+		width: calc(50% - 40px);
+		max-width: none;
+	}
+}
+
+@media (max-width: 480px) {
+	.fun-box {
+    width: calc(100% - 40px);
+    max-width: none;
+	}
+}

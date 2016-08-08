@@ -1,0 +1,27 @@
+h1 {
+	font-size: $font-xl;
+	font-family: $font-family-main;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 900;
+}
+
+h2 {
+	font-size: $font-medium;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: $font-family-main;
+	font-weight: 900;
+	letter-spacing: 2px;
+}
+
+p {
+	font-size: $font-inbetween;
+	font-family: $font-family-secondary;
+	text-align: center;
+	color: $p-color;
+}
+
+
+
+

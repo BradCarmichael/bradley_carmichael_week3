@@ -1,0 +1,82 @@
+
+
+
+.team h2 {
+	padding-top: 50px;
+	padding-bottom: 15px;
+}
+
+.key-line-diamond.team {
+	padding-bottom: 20px;
+}
+
+.team, .team-text {
+	padding-bottom: 65px;
+}
+
+.team-wrap {
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: center;   
+}
+
+.team-wrap img {
+	margin-left: 10px;
+    margin-right: 10px;
+    padding: 7px;
+    border: 1px solid #e5e5e5;
+}
+
+.box-heading {
+	font-family: $font-family-main;
+	text-transform: uppercase;
+	padding-top: 25px;
+}
+
+.team-box p:last-child {
+	font-size: $font-small;
+	padding-top: 10px;
+}
+
+.team-box:after {
+	content: '';
+	display: block;
+	background: #b2b2b2;
+	height: 1px;
+	max-width: 30px;
+	margin-top: 20px;
+	margin-left: 130px;
+	margin-bottom: 80px;
+}
+
+.arrow-wrap {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.arrow-box {
+	width: 30px;
+	height: 30px;
+	border: 1px solid #202020;
+	padding-top: 8px;
+	font-size: 13px;
+	margin: 0px 6px;
+	transition: background-color .2s;
+}
+
+.arrow-box a {
+	text-decoration: none;
+	cursor: pointer; 
+	padding: 6px 10px 6px 10px;
+}
+
+.arrow-box:hover {
+	background-color: $accent;
+	border: 1px solid $accent;
+}
+
+.arrow-box a:hover {
+	color: $primary;
+}
+
