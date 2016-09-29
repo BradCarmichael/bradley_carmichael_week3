@@ -1,10 +1,10 @@
 
 .blog-container {
 	background-color: $third;
-	// padding-bottom: 100px;
 	.blog-heading {
 		padding-bottom: 80px;
 		color: #d0d0d0;
+		line-height: 25px;
 	}
 }
 
@@ -29,12 +29,12 @@
 
 .key-line-diamond.blog {
 	padding-bottom: 40px;
+	text-align: center;
 }
 
 .blog-wrapper.blog-three {
 	padding-bottom: 90px;
 }
-
 
 .blog-photo-wrap {
 	width: 50%;
@@ -47,6 +47,8 @@
 
 .blog-icon-wrap {
 	position: absolute;
+	right: 90%;
+	top: 30px;
 }
 
 .camera, .music, .video {
@@ -98,6 +100,7 @@
 		color: $primary;
 		padding-bottom: 20px;
 		text-transform: uppercase;
+		text-align: center;
 	}
 }
 
@@ -142,6 +145,7 @@
 	justify-content: center;
 	align-items: center;
 	padding-bottom: 130px;
+	text-align: center;
 }
 
 .blog-button-load {
@@ -184,7 +188,9 @@
 	.blog-card {
 		width: 70%;
 		padding-bottom: 30px;
-
+	}
+	.blog-icon-wrap {
+	    right: 75%;
 	}
 }
 
@@ -196,12 +202,12 @@
 	.blog-card {
 		width: 80%;
 	}
-}
-
-@media (max-width: 768px) {
 	.blog-icon-box {
 		display: none;
 	}
+}
+
+@media (max-width: 768px) {
 	.blog-card {
 		width: 100%;
 	}
@@ -210,8 +216,22 @@
 @media (max-width: 480px) {
 	.blog-numbers p {
 	    padding: 0px 10px;
+	} 
+	.blog-image img {
+		width: 100%;
 	}
-    
+}
+
+@media (max-width: 400px) {
+	.blog-text {
+		padding: 20px;
+	}
+	.blog-numbers p {
+		margin-bottom: 10px;
+	}
+	.blog-wrapper.blog-three {
+		padding-bottom: 0px;
+	}
 }
 
 

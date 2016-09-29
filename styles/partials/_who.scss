@@ -38,37 +38,6 @@ main {
 	width: 100%;
 }
 
-.button ul {
-	text-align: center;
-	display: flex;
-	justify-content: center;
-	padding-bottom: 100px;
-}
-
-.button ul li {
-	background-color: #daa66f;
-	margin: 0px 8px;
-	padding-top: 4px;
-	padding-bottom: 4px;
-	font-family: $font-family-main;
-	text-transform: uppercase;
-	font-size: $font-small;
-}
-
-.button ul li a {
-	padding: 9px 20px;
-	text-decoration: none;
-	color: $primary;
-	border: 1px solid $accent;
-	transition: background-color .2s;	
-}
-
-.button ul li a:hover {
-	border: 1px solid $third;
-	color: $third;
-	background-color: $primary;
-}
-
 .welcome-wrap {
 	display: flex;
 	flex-wrap: wrap;
@@ -87,6 +56,7 @@ main {
     top: 50px;
     right: 0px;
     background-color: white;
+    text-align: center;
 }
 
 .welcome-box h3 {
@@ -152,5 +122,23 @@ main {
 		background-color: $secondary;
 	}
 }
+
+@media (max-width: 480px) {
+	.who-main-image {
+		padding-bottom: 40px;
+	}
+	.welcome-box {
+		height: 475px;
+	}
+}
+
+@media (max-width: 400px) {
+	.welcome-box {
+		width: 100%;
+		padding: 20px;
+	}
+}
+
+
 
 

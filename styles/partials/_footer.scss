@@ -72,8 +72,12 @@
     line-height: 25px;
 }
 
-.double-key-line.one {
-	transform: scaleX(-1);
+.double-key-line.footer {
+	text-align: center;
+}
+
+.double-key-line.footer-two {
+	text-align: center;
 }
 
 .footer-box.three {
@@ -204,4 +208,27 @@
 		padding-right: 0px;
 	}
 }
+
+@media (max-width: 480px) {
+	.logo.footer {
+		font-size: 18px;
+	}
+} 
+
+@media (max-width: 320px) {
+	.footer-box.one {
+		text-align: center;
+	}
+	.logo.footer {
+		margin: 0 auto;
+		font-size: 18px;
+	}
+	.footer-icon-wrap {
+		display: none;
+	}
+	.footer-box.three {
+		text-align: center;
+		margin-top: 0px;
+	}
+} 
 

@@ -1,6 +1,4 @@
 
-
-
 .team h2 {
 	padding-top: 50px;
 	padding-bottom: 15px;
@@ -8,10 +6,12 @@
 
 .key-line-diamond.team {
 	padding-bottom: 20px;
+	text-align: center;
 }
 
 .team, .team-text {
 	padding-bottom: 65px;
+	line-height: 25px;
 }
 
 .team-wrap {
@@ -65,10 +65,15 @@
 	transition: background-color .2s;
 }
 
+.arrow-box.team-sec {
+	padding-top: 3px;
+}
+
 .arrow-box a {
 	text-decoration: none;
 	cursor: pointer; 
 	padding: 6px 10px 6px 10px;
+	color: #585858;
 }
 
 .arrow-box:hover {
@@ -78,5 +83,22 @@
 
 .arrow-box a:hover {
 	color: $primary;
+}
+
+@media (max-width: 480px) {
+	.team-wrap img {
+		margin-left: 0px;
+		margin-right: 0px;
+		width: 100%;
+	}
+}
+
+@media (max-width: 400px)  {
+	.team-text {
+		padding: 0px 10px 65px 10px;
+	}
+	.arrow-wrap {
+		display: none;
+	}
 }
 

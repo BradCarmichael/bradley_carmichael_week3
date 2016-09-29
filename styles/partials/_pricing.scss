@@ -36,7 +36,8 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-    padding-bottom: 160px;
+    padding: 0px 20px 150px 20px;
+    width: 100%;
 }
 
 .amount-box {
@@ -57,15 +58,16 @@
 	flex-direction: column;
 	border: 1px solid #e5e5e5;
 	transition: background-color .4s;
+	width: 33.33333%;
+
 		.dollar {
 			font-size: 20px;
 		    position: absolute;
 		    top: 8px;
 		    left: 50%;
 		    transform: translate(-60px);
-				}
-}
-		
+		}
+}		
 	.pricing-card-box:hover {
 		background-color: $accent;
 }
@@ -98,7 +100,7 @@
 	background-color: #202020;
 	font-family: "Montserrat", sans-serif;
 	border-radius: 0px 0px 10px 10px;
-	transform: translate(-63px);
+	transform: translate(-50%);
 }
 
 .pricing-list a {
@@ -118,10 +120,51 @@
 	transition: all 0.3s;
 }
 
-@media (max-width: 1170px) {
-	.pricing-card-box:hover {
-		}
+@media (max-width: 1150px) {
+	.pricing-card-box {
+		width: calc(50% - 80px);
+		margin: 40px;
+	}
 } 
+
+@media (max-width: 880px) {
+	.pricing-card-box {
+		width: calc(100% - 150px);
+		margin: 75px;
+	}
+}
+
+@media (max-width: 560px) {
+	.pricing-card-box {
+		width: 100%;
+		margin: 0px;	
+	}
+}
+
+@media (max-width: 350px) {
+	.pricing-button {
+		font-size: 7px;
+		padding: 8px 4px 8px 4px;
+		letter-spacing: 1px;
+	}
+	.pricing-card-box .dollar {
+		left: 30%;
+	}
+	.pricing-list.price-one p {
+		left: 30%;
+	}
+	.pricing-list.two p {
+		left: 23%;
+	}
+	.pricing-list.three p {
+		left: 23%;
+	} 
+} 
+
+
+
+
+
 
 
 

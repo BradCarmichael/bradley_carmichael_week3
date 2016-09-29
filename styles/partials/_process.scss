@@ -16,6 +16,7 @@
 .process-wrapper p {
     padding-top: 40px;
 	padding-bottom: 80px;
+    line-height: 25px;
 }
 
 .process-wrap {
@@ -23,6 +24,10 @@
 	flex-wrap: wrap;
 	position: relative;
 	padding-bottom: 120px;
+}
+
+.key-line-diamond.process {
+    text-align: center;
 }
 
 .process-box {
@@ -72,23 +77,6 @@
     left: 50%;
     border-radius: 50%;
     transform: translate(-45px);
-}
-
-.button.process ul {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    padding-bottom: 30px;
-}
-
-.button.process ul li {
-    background-color: #daa66f;
-    margin: 0px 8px;
-    padding-top: 11px;
-    padding-bottom: 10px;
-    font-family: "Montserrat", sans-serif;
-    text-transform: uppercase;
-    font-size: 11px;
 }
 
 .number-list-process ul {
@@ -141,8 +129,32 @@
     .process-box {
         background-color: $secondary;
     }
+    .process-main-image {
+        display: none;
+    }
+    .process-wrapper p {
+        padding-bottom: 0px;
+    }
+    .process-box h3:after {
+        display: none;
+    }
+     .umbrella-two {
+        display: none;
+    }
+    .number-list-process {
+        display: none;
+    }
+    .process-box {
+        height: 300px;
+    }
 }
 
+@media (max-width: 400px) {
+    .process-box {
+        width: 100%;
+        padding: 20px;
+    }
+}
 
 
 
